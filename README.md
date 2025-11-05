@@ -17,6 +17,6 @@ Direct translation between two non-English languages (e.g., Arabic to Chinese) i
 ## 🔧 Setup & Dependencies
 
 The application relies on the following packages, defined in the requirements.txt file:
-gradio
-transformers
+gradio,
+transformers,
 torch
