@@ -6,12 +6,27 @@ This Hugging Face Space provides quick, accessible translation services covering
 
 ## Link: https://huggingface.co/spaces/pennywa/language_translator
 
-## Supported Translations:
-The application supports translation between English and the five other official languages in both directions (e.g., Spanish to English, or English to Spanish). 
-Direct translation between two non-English languages (e.g., Arabic to Chinese) is currently not supported in this simplified setup.
+## 🌎 Supported Translations:
+The application supports translation between English and the five other official languages in both directions (example: Spanish to English, or English to Spanish), as well as direct translation between two non-English languages (example: French to Spanish). 
 
-## 🔧 Setup & Dependencies
+## 🚀 How It Works
 
-The application relies on the following packages, defined in the requirements.txt file:
-gradio,
-deep-translator
+This app uses an API-based approach:
+The deep-translator library supports several translation services. The API being used is the Google Translate service accessed via the GoogleTranslator class.
+
+This allows for fast startup and reliable translation performance, regardless of the server capacity assigned to your space. 
+
+1. When you click "Translate," the app sends a request to an external translation service
+2. The service performs the translation and instantly returns the result to your Gradio interface.
+
+Unlike applications that download and run massive machine learning models locally (which often fail due to memory or time limits on the free CPU tier), API-based approach used instead.
+
+## 🛠️ Required Files
+
+The application requires only the essential files in the root directory:
+
+* `app.py`: The main Python script defining the Gradio interface and translation logic.
+* `requirements.txt`: Specifies the necessary dependencies: `gradio` and `deep-translator`.
+  
+
+
