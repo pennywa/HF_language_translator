@@ -20,7 +20,7 @@ The deep-translator library supports several translation services.
 This allows for fast startup and reliable translation performance, regardless of the server capacity assigned to your space. 
 
 1. When you click "Translate," the app sends a request to an external translation service
-2. The service performs the translation and instantly returns the result to your Gradio interface.
+2. The service performs the translation and instantly returns the result to your Gradio interface
 
 ## 🛠️ Required Files
 
