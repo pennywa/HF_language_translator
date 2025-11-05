@@ -12,14 +12,14 @@ The application supports translation between English and the five other official
 ## 🚀 How It Works
 
 This app uses an API-based approach:
+Reasoning: Applications that download and run massive machine learning models locally (often fail due to memory or time limits on the free CPU tier)
+
 The deep-translator library supports several translation services. The API being used is the Google Translate service accessed via the GoogleTranslator class.
 
 This allows for fast startup and reliable translation performance, regardless of the server capacity assigned to your space. 
 
 1. When you click "Translate," the app sends a request to an external translation service
 2. The service performs the translation and instantly returns the result to your Gradio interface.
-
-Unlike applications that download and run massive machine learning models locally (which often fail due to memory or time limits on the free CPU tier), API-based approach used instead.
 
 ## 🛠️ Required Files
 
