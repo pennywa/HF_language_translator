@@ -19,4 +19,6 @@ Direct translation between two non-English languages (e.g., Arabic to Chinese) i
 The application relies on the following packages, defined in the requirements.txt file:
 gradio,
 transformers,
-torch
+torch,
+sentencepiece,
+accelerate
