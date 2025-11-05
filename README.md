@@ -14,7 +14,7 @@ The application supports translation between English and the five other official
 This app uses an API-based approach:
 Reasoning: Applications that download and run massive machine learning models locally (often fail due to memory or time limits on the free CPU tier)
 
-The deep-translator library supports several translation services. The API being used is the Google Translate service accessed via the GoogleTranslator class.
+The deep-translator library supports several translation services. 
 
 This allows for fast startup and reliable translation performance, regardless of the server capacity assigned to your space. 
 
