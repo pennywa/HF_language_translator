@@ -12,7 +12,8 @@ The application supports translation between English and the five other official
 ## 🚀 How It Works
 
 This app uses an API-based approach:
-Reasoning: Applications that download and run massive machine learning models locally (often fail due to memory or time limits on the free CPU tier)
+
+Reasoning - Applications that download and run massive machine learning models locally (often fail due to memory or time limits on the free CPU tier)
 
 The deep-translator library supports several translation services. 
 
